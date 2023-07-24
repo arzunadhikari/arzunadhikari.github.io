@@ -1,0 +1,386 @@
+/* html{
+    font-size: 62.5%;
+    font-size:10px;
+    font-size:1rem;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header */
+header {
+    min-width: 100%;
+    height: 640px;
+    background-color: #edfbfe;
+}
+
+
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+/* navbar section */
+#navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navbar h1 section  */
+#navbar h1 {
+    color: hotpink;
+    position: relative;
+    left: 20px;
+    font-size: 45px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar:logo and images */
+
+#logo img {
+    width: 200px;
+}
+
+/* navbar button section  */
+.btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 35px;
+    background-color: #fff;
+    position: relative;
+
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+
+
+}
+
+/* div kalu section */
+.kalu {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div img */
+.kalu .mockup-img {
+    top: 100px;
+    right: 50px;
+    width: 600px;
+    position: relative;
+}
+
+
+/* heading section  */
+.kalutext {
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    top: 120px;
+    left: 46px;
+    margin: 20px 0px;
+}
+
+/* h1 text section */
+
+
+/* div and para section  */
+.kalu p {
+    font-size: 0.8em;
+    padding: 30px 10px;
+    font-weight: lighter;
+    line-height: 25px;
+    max-width: 528px;
+    position: relative;
+    bottom: 10px;
+}
+
+/* div in button section */
+.divbtn {
+    background-color: #ff0099;
+    margin: 35px auto;
+    color: #fff;
+}
+
+/* section time */
+.features {
+    width: 100%;
+    height: 100%;
+    margin: 60px 0px;
+}
+
+/* div card section */
+.card {
+    max-width: 84%;
+    padding: 35px;
+    margin: 120px auto;
+    border-radius: 25px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+/* div card-img */
+.card-img {
+    width: 370px;
+    margin: 30px auto;
+}
+
+/* cardcontent section */
+.card-content {
+    max-width: 628px;
+    margin: auto;
+}
+
+/* card-content p section */
+.card-content p {
+    position: relative;
+    color: grey;
+    left: 2px;
+    width: 70%;
+    font-size: smaller;
+}
+
+/* card-content h1 */
+.card-content h1 {
+    font-size: 1.8rem;
+    margin: 20px auto;
+}
+
+/* flowing conv content to make image opposite side*/
+.conv-content {
+    order: 1;
+
+}
+
+.noconv {
+    margin: 10px 165px;
+    font-size: 1.4rem;
+}
+
+/* 2nd section type start */
+/* footer content section  */
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #00252e;
+    margin-top: 10rem;
+    padding-bottom: 20px;
+}
+
+.community {
+    width: 1260px;
+    transform: translateY(-45%);
+    background: #fff;
+
+}
+
+/* newbtn section */
+.newbtn {
+    padding: 10px 30px;
+    margin-top: 44px;
+    left: -15px;
+}
+
+/* flex column to make text good  */
+.flex-column {
+    flex-direction: column;
+}
+
+/* info and services section */
+.info-and-social {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-and-social div {
+    align-items: center;
+}
+
+.info-and-social div div {
+    display: flex;
+    margin: 15px 0px;
+
+}
+
+.info-text {
+    margin: 0px 10px;
+    max-width: 300px;
+    font-size: 0.8rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* material icons  */
+.material-icons {
+    color: #fff;
+}
+
+/* to manage the text of info-links */
+
+.info-link {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 10px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+/* social links section */
+.social-link {
+    margin: 0px 3px;
+}
+
+.icon {
+    flex-direction: column;
+}
+
+/* footer text in last */
+.footer-text {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 38px;
+}
+
+
+/* media queries*/
+
+/* .conv-content h1{
+    width: 60%;
+    } */
+
+
+@media (max-width:1210px) {
+    .kalu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: -50px auto;
+        line-height: 4rem;
+        justify-content: center;
+
+    }
+
+    .card {
+        max-width: 80%;
+        font-size: 17px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .kalutext {
+        position: relative;
+    left: 0px;
+    margin: auto 15px;
+    }
+
+    .kalu .mockup-img {
+        margin: 20px 0px;
+        right: 0px;
+        position: relative;
+    }
+
+    .card-content p {
+
+
+        display: contents;
+        font-size: 1.3rem;
+    }
+
+    header {
+        min-width: 100%;
+        height: 62rem;
+        background-color: #edfbfe;
+    }
+    .noconv {
+        margin: 10px 0px;
+        font-size: 1.6rem;
+        
+    }
+}
+@media (max-width:620px){
+    .kalu .mockup-img {
+        width: 450px
+    }
+    .info-and-social {
+        
+        display: block;
+    margin: auto 30px;
+    }
+    .info-links{
+   
+    margin: 30px 0px;
+   
+}
+.kalutext {
+    margin: 0px;
+    font-size: 16px;
+}
+.kalu {
+    line-height: 45px;
+}
+.card-content p {
+    font-size: 16px;
+}
+header {
+    height: 52rem;
+}
+.kalu p {
+    font-size: smaller;
+   
+}
+.footer-text{
+    justify-content: center  ;
+}
+}
+@media (max-width:530px) {
+    #navbar {
+        flex-direction: column;
+        
+    }
+    .nobtn{
+        margin: 20px auto;
+    }
+    
+.kalu .mockup-img {
+    width: 300px;
+}
+header {
+    height: 55rem;
+}
+.footer-text{
+    justify-content: flex-start;
+}
+.card-img {
+    width: 200px;
+    margin: 20px;
+}
+
+}
